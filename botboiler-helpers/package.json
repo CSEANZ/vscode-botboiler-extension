@@ -1,0 +1,21 @@
+{
+    "name": "botboiler-helpers",
+    "displayName": "BotBoiler helpers",
+    "description": "Snippets to assist when coding with the BotBoiler base code framework",
+    "version": "0.0.1",
+    "publisher": "jakkaj",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            }
+        ]
+    }
+}
