@@ -18,7 +18,7 @@
 			"    public name:string ='${3:newDialogName}';",
 			"    public trigger:RegExp =/^${4:trigger}\\$/i",
 			"    public get waterfall(): builder.IDialogWaterfallStep[]{",
-			"        return [this.step1, this.step2];",
+			"        return [this.step1.bind(this), this.step2.bind(this)];",
 			"    }",
 			"",
 			"\t/**",

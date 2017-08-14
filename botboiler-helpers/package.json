@@ -2,7 +2,7 @@
     "name": "botboiler-helpers",
     "displayName": "BotBoiler helpers",
     "description": "Snippets to assist when coding with the BotBoiler base code framework",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "jakkaj",
     "engines": {
         "vscode": "^1.14.0"
